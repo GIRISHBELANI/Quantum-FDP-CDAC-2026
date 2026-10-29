@@ -10,7 +10,7 @@
 1. Create an environment named "qiskit" and then "activate" it using the following commands:
 
 ```bash
-    conda create -n qiskit python=3
+    conda create -n qiskit python=3.11
 
     conda activate qiskit
 ```
@@ -20,5 +20,5 @@
 2. Enter the following commands to install the latest version of Qiskit and the other required packages.
 
 ```bash
-    pip install numpy matplotlib qiskit==2.4.0 jupyter notebook qutip
+    pip install numpy matplotlib qiskit==2.4.0 jupyter notebook qutip sympy pylatexenc
 ```
